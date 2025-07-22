@@ -1,0 +1,38 @@
+/* تنسيق العناصر الرئيسية */
+.main-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    overflow: auto; /* يحافظ على احتواء العناصر المعطوبة */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #333;
+}
+
+.col-4 {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* تنسيق التذييل */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    clear: both; /* يحافظ على احتواء العناصر المعطوبة */
+}
+
+.footer .wrapper {
+    text-align: center;
+}
